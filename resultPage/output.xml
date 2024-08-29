@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-08-24T15:02:21.619386" rpa="false" schemaversion="5">
+<suite id="s1" name="Pages" source="D:\testwebsaucedemo\pages.robot">
+<test id="s1-t1" name="Open Browser To Page Website My Shop" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:02:21.807810" level="INFO">Opening browser 'chrome' to base url 'http://www.automationpractice.pl/index.php'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-24T15:02:21.807810" elapsed="3.118455"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-24T15:02:24.926265" elapsed="10.063813"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[1]/a</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-08-24T15:02:34.990132" elapsed="0.023417"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:02:35.014546" level="INFO">Clicking element 'xpath=//*[@id="block_top_menu"]/ul/li[1]/a'.</msg>
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-24T15:02:35.014546" elapsed="6.006060"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-24T15:02:43.021331" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-24T15:02:41.020606" elapsed="2.000725"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:02:43.119803" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-08-24T15:02:43.021331" elapsed="0.098472"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-24T15:02:43.119803" elapsed="3.531660"/>
+</kw>
+<status status="PASS" start="2024-08-24T15:02:21.807810" elapsed="24.843653"/>
+</test>
+<test id="s1-t2" name="Open Browser Test Element Dreses" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:02:46.651463" level="INFO">Opening browser 'chrome' to base url 'http://www.automationpractice.pl/index.php'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-24T15:02:46.651463" elapsed="9.318848"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-24T15:02:55.970311" elapsed="0.038379"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[2]/a</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-08-24T15:02:56.010684" elapsed="0.030448"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:02:56.042156" level="INFO">Clicking element 'xpath=//*[@id="block_top_menu"]/ul/li[2]/a'.</msg>
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-24T15:02:56.041132" elapsed="3.621682"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-24T15:03:01.663395" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-24T15:02:59.662814" elapsed="2.000581"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:01.766292" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-08-24T15:03:01.663395" elapsed="0.102897"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-24T15:03:01.766292" elapsed="3.729348"/>
+</kw>
+<status status="PASS" start="2024-08-24T15:02:46.651463" elapsed="18.844177"/>
+</test>
+<test id="s1-t3" name="Open Browser Test Element T-Shirts" line="31">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:05.495640" level="INFO">Opening browser 'chrome' to base url 'http://www.automationpractice.pl/index.php'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-24T15:03:05.495640" elapsed="9.315508"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-24T15:03:14.813241" elapsed="0.031770"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[3]/a</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-08-24T15:03:14.846028" elapsed="0.034939"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:14.881963" level="INFO">Clicking element 'xpath=//*[@id="block_top_menu"]/ul/li[3]/a'.</msg>
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-24T15:03:14.880967" elapsed="2.424219"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-24T15:03:19.305813" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-24T15:03:17.305186" elapsed="2.000627"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:19.402471" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-08-24T15:03:19.305813" elapsed="0.096658"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-24T15:03:19.402471" elapsed="3.780027"/>
+</kw>
+<status status="PASS" start="2024-08-24T15:03:05.495640" elapsed="17.686858"/>
+</test>
+<test id="s1-t4" name="Open Browser Test Element Blog" line="42">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:23.182498" level="INFO">Opening browser 'chrome' to base url 'https://prestashop.com/blog/'.</msg>
+<arg>https://prestashop.com/blog/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-24T15:03:23.182498" elapsed="4.935866"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-24T15:03:29.118618" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-24T15:03:28.118364" elapsed="1.000254"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-08-24T15:03:29.229346" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-08-24T15:03:29.120641" elapsed="0.108705"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-24T15:03:29.229346" elapsed="2.128570"/>
+</kw>
+<status status="PASS" start="2024-08-24T15:03:23.182498" elapsed="8.175418"/>
+</test>
+<status status="PASS" start="2024-08-24T15:02:21.619386" elapsed="69.744583"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Pages">Pages</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
