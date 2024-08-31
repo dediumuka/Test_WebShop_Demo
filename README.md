@@ -4,5 +4,5 @@
 # Test_WebShop_Demo_Page 2
 ![alt text](https://github.com/dediumuka/Test_WebShop_Demo/blob/main/resultPage/selenium-screenshot-2.png?raw=true)
 
-#Results_RobotFramework_Page 3
+# Test_WebShop_Demo_Page 3
 ![alt text](https://github.com/dediumuka/Test_WebShop_Demo/blob/main/resultPage/selenium-screenshot-2.png?raw=true)
